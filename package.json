@@ -1,0 +1,31 @@
+{
+  "name": "read-daily-",
+  "version": "1.0.0",
+  "description": "Read Daily: regional headlines from trusted publishers plus one short summarised section of your favourite book each day.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgopinath/Read-daily-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgopinath/Read-daily-/issues"
+  },
+  "homepage": "https://github.com/tgopinath/Read-daily-#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
+    "express": "^5.3.0",
+    "rss-parser": "^3.13.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}

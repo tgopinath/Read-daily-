@@ -1,0 +1,9 @@
+{
+  "name": "Read Daily",
+  "short_name": "Read Daily",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#1f4e45",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
